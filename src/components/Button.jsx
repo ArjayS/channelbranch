@@ -1,11 +1,13 @@
 import React from "react";
 
 const Button = (props) => {
-  const { name } = props;
+  const { sitename, link } = props;
   return (
-    <>
-      <button>{name}</button>
-    </>
+    <form>
+      <button type="submit" formaction={link}>
+        {sitename}
+      </button>
+    </form>
   );
 };
 

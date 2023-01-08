@@ -15,7 +15,8 @@ const Main = () => {
 
   return (
     <div>
-      <Button />
+      {}
+      <Button sitename="LinkedIN" link="https://www.youtube.com/" />
     </div>
   );
 };
