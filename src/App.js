@@ -29,13 +29,16 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>{data.name}</p>
-      </header>
-      <div className="container">
-        <Main />
-      </div>
+    <div>
+      <Main name={data.name} image={data.image} bio={data.bio} />
+      {data.socials.map((social) => (
+        <Button
+          id={social.id}
+          site_name={social.site_name}
+          site_description={social.site_description}
+          site_link={social.link}
+        />
+      ))}
     </div>
   );
 }
