@@ -4,7 +4,9 @@ const Button = (props) => {
   const { id, site_name, site_description, site_link } = props;
   return (
     <form>
-      <button id={id}>{site_name}</button>
+      <button id={id} type="submit" formAction={site_link}>
+        {site_description}
+      </button>
     </form>
   );
 };
