@@ -21,6 +21,18 @@ function App() {
       },
       {
         id: 3,
+        site_name: "Discord",
+        site_description: "Let's chat!",
+        link: "https://resume.creddle.io/resume/6nua8y8tbin",
+      },
+      {
+        id: 4,
+        site_name: "Gmail",
+        site_description: "If you want to contact me via gmail",
+        link: "servadorobert@gmail.com",
+      },
+      {
+        id: 5,
         site_name: "Creddle",
         site_description: "Please check out my resume!",
         link: "https://resume.creddle.io/resume/6nua8y8tbin",
