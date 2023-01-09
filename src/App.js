@@ -22,8 +22,8 @@ function App() {
       {
         id: 3,
         site_name: "Discord",
-        site_description: "Let's chat!",
-        link: "https://resume.creddle.io/resume/6nua8y8tbin",
+        site_description: "Let's chat on Discord!",
+        link: "https://discord.com/users/Robert Servado#9549",
       },
       {
         id: 4,
