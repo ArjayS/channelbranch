@@ -5,13 +5,13 @@ const Main = () => {
   return (
     <div>
       <form>
-        {socials.map((social) => {
+        {/* {socials.map((social) => {
           <Button
             key={social.id}
             sitename={social.sitename}
             link={social.link}
           />;
-        })}
+        })} */}
       </form>
     </div>
   );
