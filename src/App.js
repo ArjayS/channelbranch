@@ -1,11 +1,11 @@
-import "./App.css";
 import Main from "./components/Main";
+import Button from "./components/Button";
 
 function App() {
   const data = {
     name: "Robert Servado",
     image: "https://github.com/ArjayS.png",
-    bio: "Welcome to my small app that displays my social links!",
+    bio: "Welcome to my small app that displays my professional social links!",
     socials: [
       {
         id: 1,
@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Robert Servado</p>
+        <p>{data.name}</p>
       </header>
       <div className="container">
         <Main />
