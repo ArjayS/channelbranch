@@ -6,7 +6,11 @@ const Main = (props) => {
     <div>
       <header>
         <p>{name}</p>
-        <p>{image}</p>
+        <img
+          src={image}
+          className="max-w-full h-auto"
+          alt="Robert Servado Github PNG Picture"
+        />
         <p>{bio}</p>
       </header>
     </div>
