@@ -3,7 +3,7 @@ import React from "react";
 const Main = (props) => {
   const { name, image, bio } = props;
   return (
-    <div>
+    <>
       <header>
         <p>{name}</p>
         <img
@@ -13,7 +13,7 @@ const Main = (props) => {
         />
         <p>{bio}</p>
       </header>
-    </div>
+    </>
   );
 };
 
