@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="flex">
       <Main name={data.name} image={data.image} bio={data.bio} />
       {data.socials.map((social) => (
         <Button
