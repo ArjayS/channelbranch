@@ -8,7 +8,7 @@ const Main = (props) => {
         <p>{name}</p>
         <img
           src={image}
-          className="image-placeholder w-32 h-32 rounded-full"
+          className="w-32 h-32 rounded-full"
           alt="Robert Servado Github PNG Picture"
         />
         <p>{bio}</p>
