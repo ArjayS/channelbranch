@@ -4,7 +4,7 @@ const Main = (props) => {
   const { name, image, bio } = props;
   return (
     <>
-      <header>
+      <header className="text-3xl">
         <p>{name}</p>
         <img
           src={image}
