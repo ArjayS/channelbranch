@@ -4,8 +4,8 @@ const Main = (props) => {
   const { name, image, bio } = props;
   return (
     <>
-      <header className="text-3xl">
-        <div className="w-48 h-48 drop-shadow-2xl">
+      <header className="temp-img-comp-wrapper mt-32">
+        <div className="w-48 h-48 relative drop-shadow-2xl">
           <img
             layout="fill"
             src={image}
@@ -14,7 +14,7 @@ const Main = (props) => {
             objectfit="cover"
           />
         </div>
-        <p className="text-center text-lg">
+        <p className="text-center text-2xl font-normal">
           <a target="_blank" href="https://github.com/ArjayS">
             {name}
           </a>
