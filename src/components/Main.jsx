@@ -5,7 +5,7 @@ const Main = (props) => {
   return (
     <>
       <header className="text-3xl">
-        <div className="w-32 h-32 relative drop-shadow-2xl">
+        <div className="w-48 h-48 drop-shadow-2xl">
           <img
             layout="fill"
             src={image}
