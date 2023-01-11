@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div className="flex">
+    <div className="flex felx-col w-8/12 items-center mx-auto h-screen justify-center">
       <Main name={data.name} image={data.image} bio={data.bio} />
       {data.socials.map((social) => (
         <Button
