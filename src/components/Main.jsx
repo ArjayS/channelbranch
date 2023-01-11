@@ -13,7 +13,9 @@ const Main = (props) => {
           />
         </div>
         <p>
-          <a href="">{name}</a>
+          <a target="_blank" href="https://github.com/ArjayS">
+            {name}
+          </a>
         </p>
         <p>{bio}</p>
       </header>
