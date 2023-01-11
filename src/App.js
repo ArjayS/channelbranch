@@ -3,7 +3,7 @@ import Button from "./components/Button";
 
 function App() {
   const data = {
-    name: "Robert Servado",
+    name: "@Robert Servado",
     image: "https://github.com/ArjayS.png",
     bio: "Welcome to my small app that displays my professional social links!",
     socials: [
