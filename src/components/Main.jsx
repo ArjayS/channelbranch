@@ -6,11 +6,13 @@ const Main = (props) => {
     <>
       <header className="text-3xl">
         <p>{name}</p>
-        <img
-          src={image}
-          className="w-32 h-32 rounded-full"
-          alt="Robert Servado Github PNG Picture"
-        />
+        <div className="w-32 h-32 relative">
+          <img
+            src={image}
+            className="rounded-full"
+            alt="Robert Servado Github PNG Picture"
+          />
+        </div>
         <p>{bio}</p>
       </header>
     </>
