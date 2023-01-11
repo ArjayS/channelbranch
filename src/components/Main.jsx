@@ -5,14 +5,16 @@ const Main = (props) => {
   return (
     <>
       <header className="text-3xl">
-        <div className="w-32 h-32 relative">
+        <div className="w-32 h-32 relative drop-shadow-2xl">
           <img
+            layout="fill"
             src={image}
             className="rounded-full"
             alt="Robert Servado Github PNG Picture"
+            objectfit="cover"
           />
         </div>
-        <p>
+        <p className="text-center text-lg">
           <a target="_blank" href="https://github.com/ArjayS">
             {name}
           </a>
