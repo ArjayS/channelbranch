@@ -22,7 +22,9 @@ const Main = (props) => {
             {name}
           </a>
         </h1>
-        <p>{bio}</p>
+        <div className="mt-3">
+          <p className="text-xl font-semibold">{bio}</p>
+        </div>
       </header>
     </>
   );
