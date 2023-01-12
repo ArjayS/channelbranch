@@ -46,9 +46,10 @@ function App() {
   };
 
   return (
-    <div className="flex felx-col w-8/12 items-center mx-auto h-screen">
+    // <div className="flex felx-col w-8/12 items-center mx-auto h-screen">
+    <div>
       <Main name={data.name} image={data.image} bio={data.bio} />
-      {data.socials.map((social) => (
+      {/* {data.socials.map((social) => (
         <Button
           id={social.id}
           site_name={social.site_name}
@@ -56,7 +57,7 @@ function App() {
           site_link={social.link}
           site_logo={social.site_logo}
         />
-      ))}
+      ))} */}
     </div>
   );
 }
