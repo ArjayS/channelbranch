@@ -9,7 +9,7 @@ const Main = (props) => {
         {/* <div className="relative drop-shadow-2xl p-2"> */}
         <div>
           {/* <div className="ring-2 ring-white rounded-full p-0.5"> */}
-          <div>
+          <div className="inline-block">
             <img
               src={image}
               height={350}
