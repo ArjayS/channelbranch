@@ -5,10 +5,10 @@ const Button = (props) => {
   return (
     <div className="bg-white rounded-full p-2 w-96 mt-3">
       <form>
+        <p>{site_name}</p>
         <button id={id} type="submit" formAction={site_link}>
           {site_description}
-          <div>{site_name}</div>
-          <img alt="Logo" src={site_logo} />
+          <img src={site_logo} alt={site_name} />
         </button>
       </form>
     </div>
