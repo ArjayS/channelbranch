@@ -1,5 +1,9 @@
 import Main from "./components/Main";
 import Button from "./components/Button";
+import LinkedInBlack from "./imgs/LinkedIn_black.svg";
+import GithubBlack from "./imgs/Github_black.svg";
+import DiscordBlack from "./imgs/Discord_black.svg";
+import ResumeBlack from "./imgs/Resume_black.png";
 
 function App() {
   const data = {
@@ -10,38 +14,35 @@ function App() {
       {
         id: 1,
         site_name: "LinkedIN",
-        site_logo:
-          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/LinkedIn_black.svg",
+        site_logo: { LinkedInBlack },
         site_description: "Let's connect on LinkedIN!",
         link: "https://www.linkedin.com/in/robertservado/",
       },
       {
         id: 2,
         site_name: "Github",
-        site_logo:
-          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/Github_black.svg",
+        site_logo: { GithubBlack },
         site_description: "Checkout my github profile!",
         link: "https://github.com/ArjayS",
       },
       {
         id: 3,
         site_name: "Discord",
-        site_logo:
-          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/Discord_black.svg",
+        site_logo: { DiscordBlack },
         site_description: "Let's chat on Discord!",
         link: "https://discord.com/users/Robert Servado#9549",
       },
+      // {
+      //   id: 4,
+      //   site_name: "Gmail",
+      //   site_logo: "",
+      //   site_description: "If you want to contact me via gmail",
+      //   link: "servadorobert@gmail.com",
+      // },
       {
         id: 4,
-        site_name: "Gmail",
-        site_logo: "",
-        site_description: "If you want to contact me via gmail",
-        link: "servadorobert@gmail.com",
-      },
-      {
-        id: 5,
         site_name: "Creddle",
-        site_logo: "",
+        site_logo: { ResumeBlack },
         site_description: "Please check out my resume!",
         link: "https://resume.creddle.io/resume/6nua8y8tbin",
       },
