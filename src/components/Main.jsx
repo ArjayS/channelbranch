@@ -9,12 +9,12 @@ const Main = (props) => {
         {/* <div className="relative drop-shadow-2xl p-2"> */}
         <div>
           {/* <div className="ring-2 ring-white rounded-full p-0.5"> */}
-          <div className="inline-block">
+          <div>
             <img
               src={image}
               height={350}
               width={350}
-              className="rounded-full"
+              className="rounded-full inline-block"
               alt="Robert Servado Github PNG Picture"
             />
           </div>
