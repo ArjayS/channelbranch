@@ -10,21 +10,24 @@ function App() {
       {
         id: 1,
         site_name: "LinkedIN",
-        site_logo: "",
+        site_logo:
+          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/LinkedIn_black.svg",
         site_description: "Let's connect on LinkedIN!",
         link: "https://www.linkedin.com/in/robertservado/",
       },
       {
         id: 2,
         site_name: "Github",
-        site_logo: "",
+        site_logo:
+          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/Github_black.svg",
         site_description: "Checkout my github profile!",
         link: "https://github.com/ArjayS",
       },
       {
         id: 3,
         site_name: "Discord",
-        site_logo: "",
+        site_logo:
+          "https://github.com/ArjayS/channelbranch/blob/main/src/imgs/Discord_black.svg",
         site_description: "Let's chat on Discord!",
         link: "https://discord.com/users/Robert Servado#9549",
       },
