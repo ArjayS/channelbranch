@@ -8,6 +8,7 @@ const Button = (props) => {
         <button id={id} type="submit" formAction={site_link}>
           {site_description}
           <div>{site_name}</div>
+          {/* <img alt="Logo" src={site_logo} /> */}
         </button>
       </form>
     </div>
