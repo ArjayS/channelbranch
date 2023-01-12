@@ -1,4 +1,5 @@
 import React from "react";
+import GithubLogo from "../imgs/Discord_black.png";
 
 const Main = (props) => {
   const { name, image, bio } = props;
@@ -26,6 +27,7 @@ const Main = (props) => {
         </div>
         <div className="mt-3">
           <p className="text-xl font-semibold">{bio}</p>
+          <img src={GithubLogo} alt="Test Github Logo " />
         </div>
       </header>
     </>
