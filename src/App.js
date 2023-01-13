@@ -12,21 +12,18 @@ function App() {
         id: 1,
         site_name: "LinkedIN",
         site_logo: require("./imgs/LinkedIn_white.svg").default,
-        site_description: "Let's connect on LinkedIN!",
         link: "https://www.linkedin.com/in/robertservado/",
       },
       {
         id: 2,
         site_name: "Github",
         site_logo: require("./imgs/Github_white.svg").default,
-        site_description: "Checkout my github profile!",
         link: "https://github.com/ArjayS",
       },
       {
         id: 3,
         site_name: "Discord",
         site_logo: require("./imgs/Discord_white.svg").default,
-        site_description: "Let's chat on Discord!",
         link: "https://discord.com/users/Robert Servado#9549",
       },
       // {
@@ -40,7 +37,6 @@ function App() {
         id: 4,
         site_name: "Creddle",
         site_logo: require("./imgs/Resume_white.svg").default,
-        site_description: "Please check out my resume!",
         link: "https://resume.creddle.io/resume/6nua8y8tbin",
       },
     ],
@@ -54,7 +50,6 @@ function App() {
           <Button
             id={social.id}
             site_name={social.site_name}
-            site_description={social.site_description}
             site_link={social.link}
             site_logo={social.site_logo}
           />
