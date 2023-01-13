@@ -4,11 +4,8 @@ const Main = (props) => {
   const { name, image, bio } = props;
   return (
     <>
-      {/* <header className="temp-img-comp-wrapper mt-32"> */}
       <header className="flex text-center flex-col items-center mt-5">
-        {/* <div> */}
         <div className="ring-2 ring-white rounded-full p-1">
-          {/* <div> */}
           <img
             src={image}
             height={200}
