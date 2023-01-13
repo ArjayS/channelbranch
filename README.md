@@ -13,3 +13,6 @@ it will show links to my social media with the right thumbnail. Here is the miro
 
 - 2023-01-11, Styled most of the main section of my site, will have to update more later.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230111update.JPG)
+
+- 2023-01-12, Added a logo for each of the social links, and a new component for recent posts. Also, I added a copyright section!
+  !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230112update.JPG)
