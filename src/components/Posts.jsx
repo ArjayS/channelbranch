@@ -1,9 +1,10 @@
 import React from "react";
 
-const Posts = () => {
+const Posts = (props) => {
+  const {} = props;
   return;
   <>
-    <p>My Recent Posts!</p>
+    <h1>My Recent Posts!</h1>
   </>;
 };
 
