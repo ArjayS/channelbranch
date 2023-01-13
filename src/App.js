@@ -63,6 +63,12 @@ function App() {
       <section className="flex flex-col text-center items-center mt-5">
         <Posts />
       </section>
+      <footer className="flex flex-col text-center">
+        <p>Designed & Developed by Robert Servado</p>
+        <p>
+          <span>&copy;</span> 2023
+        </p>
+      </footer>
     </>
   );
 }
