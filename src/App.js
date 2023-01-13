@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <Main name={data.name} image={data.image} bio={data.bio} />
-      <section className="flex flex-col text-center items-center mt-5">
+      <section className="flex flex-row text-center justify-center mt-5">
         {data.socials.map((social) => (
           <Button
             id={social.id}
