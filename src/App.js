@@ -1,5 +1,6 @@
 import Main from "./components/Main";
 import Button from "./components/Button";
+import Posts from "./components/Posts";
 
 function App() {
   const data = {
@@ -10,21 +11,21 @@ function App() {
       {
         id: 1,
         site_name: "LinkedIN",
-        site_logo: require("./imgs/LinkedIn_black.svg").default,
+        site_logo: require("./imgs/LinkedIn_white.svg").default,
         site_description: "Let's connect on LinkedIN!",
         link: "https://www.linkedin.com/in/robertservado/",
       },
       {
         id: 2,
         site_name: "Github",
-        site_logo: require("./imgs/Github_black.svg").default,
+        site_logo: require("./imgs/Github_white.svg").default,
         site_description: "Checkout my github profile!",
         link: "https://github.com/ArjayS",
       },
       {
         id: 3,
         site_name: "Discord",
-        site_logo: require("./imgs/Discord_black.svg").default,
+        site_logo: require("./imgs/Discord_white.svg").default,
         site_description: "Let's chat on Discord!",
         link: "https://discord.com/users/Robert Servado#9549",
       },
@@ -38,7 +39,7 @@ function App() {
       {
         id: 4,
         site_name: "Creddle",
-        site_logo: require("./imgs/Resume_black.svg").default,
+        site_logo: require("./imgs/Resume_white.svg").default,
         site_description: "Please check out my resume!",
         link: "https://resume.creddle.io/resume/6nua8y8tbin",
       },
@@ -58,6 +59,9 @@ function App() {
             site_logo={social.site_logo}
           />
         ))}
+      </section>
+      <section className="flex flex-col text-center items-center mt-5">
+        <Posts />
       </section>
     </>
   );
