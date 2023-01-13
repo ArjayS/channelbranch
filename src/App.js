@@ -56,7 +56,7 @@ function App() {
         ))}
       </section>
       <section className="flex flex-col text-center items-center mt-5">
-        <h1>My Recent Posts!</h1>
+        <h1 className="text-xl font-semibold">My Recent Posts!</h1>
         <Posts />
       </section>
       <footer className="flex flex-col text-center text-lg font-medium">
