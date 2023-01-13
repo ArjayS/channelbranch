@@ -1,7 +1,10 @@
 import React from "react";
 
 const Posts = () => {
-  return <div></div>;
+  return;
+  <>
+    <p>My Recent Posts!</p>
+  </>;
 };
 
 export default Posts;
