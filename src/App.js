@@ -54,11 +54,11 @@ function App() {
           <Posts />
         </section>
       </main>
-      <footer className="text-center text-lg font-medium sticky top-full">
-        <p>Designed & Developed by Robert Servado</p>
+      <footer className="flex flex-col text-center text-lg font-medium sticky top-full h-24">
         <p>
           <span>&copy;</span> 2023
         </p>
+        <p>Designed & Developed by Robert Servado</p>
       </footer>
     </div>
   );
