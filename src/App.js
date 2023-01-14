@@ -26,13 +26,6 @@ function App() {
         site_logo: require("./imgs/Discord_white.svg").default,
         link: "https://discord.com/users/Robert Servado#9549",
       },
-      // {
-      //   id: 4,
-      //   site_name: "Gmail",
-      //   site_logo: "",
-      //   site_description: "If you want to contact me via gmail",
-      //   link: "servadorobert@gmail.com",
-      // },
       {
         id: 4,
         site_name: "Creddle",
