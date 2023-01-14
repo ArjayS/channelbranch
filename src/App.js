@@ -37,10 +37,10 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <main className="flex flex-col h-screen justify-between">
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
-      <main className="mb-auto">
-        <section className="flex flex-row text-center justify-center mt-5">
+      <section className="mb-auto">
+        <nav className="flex flex-row text-center justify-center mt-5">
           {data.socials.map((social) => (
             <Socials
               id={social.id}
@@ -49,23 +49,23 @@ function App() {
               site_logo={social.site_logo}
             />
           ))}
-        </section>
-        <section className="flex flex-col text-center items-center mt-5">
+        </nav>
+        <article className="flex flex-col text-center items-center mt-5">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
           <Posts />
-        </section>
-        <section className="flex flex-col text-center items-center mt-5">
+        </article>
+        <article className="flex flex-col text-center items-center mt-5">
           <h1 className="text-xl font-semibold">Get in touch with me!</h1>
           <Contact />
-        </section>
-      </main>
+        </article>
+      </section>
       <footer className="flex flex-col text-center text-lg font-medium sticky top-full h-24">
         <p>
           <span>&copy;</span> 2023
         </p>
         <p>Designed & Developed by Robert Servado</p>
       </footer>
-    </div>
+    </main>
   );
 }
 
