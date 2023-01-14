@@ -22,3 +22,9 @@ body {
     background-position: 0% 50%;
   }
 }
+
+main {
+  position: relative;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
