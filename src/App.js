@@ -1,5 +1,5 @@
 import Main from "./components/Main";
-import Button from "./components/Button";
+import Socials from "./components/Socials";
 import Posts from "./components/Posts";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
       <main className="mb-auto">
         <section className="flex flex-row text-center justify-center mt-5">
           {data.socials.map((social) => (
-            <Button
+            <Socials
               id={social.id}
               site_name={social.site_name}
               site_link={social.link}
