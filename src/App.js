@@ -36,6 +36,11 @@ function App() {
     ],
   };
 
+  setTimeout(() => {
+    const main = document.querySelector("main");
+    main.style.opacity = 1;
+  }, 1000);
+
   return (
     <main className="flex flex-col h-screen justify-between">
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
