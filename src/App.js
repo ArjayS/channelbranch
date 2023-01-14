@@ -1,4 +1,4 @@
-import Main from "./components/Main";
+import HeaderProfile from "./components/HeaderProfile";
 import Socials from "./components/Socials";
 import Posts from "./components/Posts";
 
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen justify-between">
-      <Main name={data.name} image={data.image} bio={data.bio} />
+      <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <main className="mb-auto">
         <section className="flex flex-row text-center justify-center mt-5">
           {data.socials.map((social) => (
