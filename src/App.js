@@ -1,6 +1,7 @@
 import HeaderProfile from "./components/HeaderProfile";
 import Socials from "./components/Socials";
 import Posts from "./components/Posts";
+import Contact from "./components/Contact";
 
 function App() {
   const data = {
@@ -52,6 +53,9 @@ function App() {
         <section className="flex flex-col text-center items-center mt-5">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
           <Posts />
+        </section>
+        <section>
+          <Contact />
         </section>
       </main>
       <footer className="flex flex-col text-center text-lg font-medium sticky top-full h-24">
