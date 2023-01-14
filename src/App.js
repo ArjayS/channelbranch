@@ -36,29 +36,31 @@ function App() {
   };
 
   return (
-    <>
+    <div className="flex flex-col h-screen justify-between">
       <Main name={data.name} image={data.image} bio={data.bio} />
-      <section className="flex flex-row text-center justify-center mt-5">
-        {data.socials.map((social) => (
-          <Button
-            id={social.id}
-            site_name={social.site_name}
-            site_link={social.link}
-            site_logo={social.site_logo}
-          />
-        ))}
-      </section>
-      <section className="flex flex-col text-center items-center mt-5">
-        <h1 className="text-xl font-semibold">My Recent Posts!</h1>
-        <Posts />
-      </section>
-      <footer className="flex flex-col text-center text-lg font-medium">
+      <main className="mb-auto">
+        <section className="flex flex-row text-center justify-center mt-5">
+          {data.socials.map((social) => (
+            <Button
+              id={social.id}
+              site_name={social.site_name}
+              site_link={social.link}
+              site_logo={social.site_logo}
+            />
+          ))}
+        </section>
+        <section className="flex flex-col text-center items-center mt-5">
+          <h1 className="text-xl font-semibold">My Recent Posts!</h1>
+          <Posts />
+        </section>
+      </main>
+      <footer className="text-center text-lg font-medium sticky top-full">
         <p>Designed & Developed by Robert Servado</p>
         <p>
           <span>&copy;</span> 2023
         </p>
       </footer>
-    </>
+    </div>
   );
 }
 
