@@ -10,9 +10,9 @@ const Button = (props) => {
             id={id}
             type="submit"
             formAction={site_link}
-            className="h-8 w-8"
+            className="h-12 w-12"
           >
-            <img src={site_logo} alt={site_name} className=" w-8" />
+            <img src={site_logo} alt={site_name} className="w-14" />
           </button>
         </form>
       </div>
