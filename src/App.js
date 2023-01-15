@@ -29,7 +29,7 @@ function App() {
       },
       {
         id: 4,
-        site_name: "Creddle",
+        site_name: "Resume",
         site_logo: require("./imgs/Resume_colored.svg").default,
         link: "https://resume.creddle.io/resume/6nua8y8tbin",
       },
@@ -45,7 +45,7 @@ function App() {
     <main className="flex flex-col h-screen justify-between">
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <section className="mb-auto">
-        <nav className="flex flex-row text-center justify-center mt-5">
+        <nav className="flex flex-row text-center justify-center mt-5 mb-10">
           {data.socials.map((social) => (
             <Socials
               id={social.id}
