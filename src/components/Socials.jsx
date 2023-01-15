@@ -16,7 +16,7 @@ const Button = (props) => {
           </button>
         </form>
       </div>
-      <p>{site_name}</p>
+      <h1>{site_name}</h1>
     </div>
   );
 };
