@@ -3,7 +3,7 @@ import React from "react";
 const Button = (props) => {
   const { id, site_name, site_link, site_logo } = props;
   return (
-    <div className="mt-2">
+    <div className="mt-2 relative hover-trigger">
       <div className="bg-white rounded-full p-3 m-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md backdrop-saturate-150 backdrop-contrast-200">
         <form className="flex justify-around">
           <button
@@ -16,7 +16,7 @@ const Button = (props) => {
           </button>
         </form>
       </div>
-      <h1>{site_name}</h1>
+      <h1 className="absolute hover-target mx-5">{site_name}</h1>
     </div>
   );
 };
