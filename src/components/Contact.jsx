@@ -9,6 +9,7 @@ const Contact = () => {
       >
         <input type="text" name="name" required />
         <input type="email" name="email" required />
+        <input type="text" name="text" required />
         <button type="submit">Send</button>
       </form>
     </>
