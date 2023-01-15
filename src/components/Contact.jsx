@@ -7,9 +7,9 @@ const Contact = () => {
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
       >
-        <input type="text" name="name" required />
-        <input type="email" name="email" required />
-        <input type="text" name="text" required />
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="message" placeholder="Your Message" required />
         <button type="submit">Send</button>
       </form>
     </>
