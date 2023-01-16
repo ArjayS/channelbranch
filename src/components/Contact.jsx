@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <>
+    <div className="flex flex-col justify-center">
       <form
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
@@ -12,7 +12,7 @@ const Contact = () => {
         <input type="text" name="message" placeholder="Your Message" required />
         <button type="submit">Send</button>
       </form>
-    </>
+    </div>
   );
 };
 
