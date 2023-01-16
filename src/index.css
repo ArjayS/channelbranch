@@ -30,8 +30,8 @@ main {
 }
 
 .hover-target {
-  /* visibility: hidden; */
-  /* opacity: 0; */
+  visibility: hidden;
+  opacity: 0;
   transition: opacity 0.75s ease;
 }
 
