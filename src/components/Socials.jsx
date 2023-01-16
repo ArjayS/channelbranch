@@ -16,7 +16,7 @@ const Button = (props) => {
           </button>
         </form>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center text-lg font-medium">
         <h1 className="absolute hover-target">{site_name}</h1>
       </div>
     </div>
