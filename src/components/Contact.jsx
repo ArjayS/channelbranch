@@ -6,6 +6,7 @@ const Contact = () => {
       <form
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
+        className="mt-3"
       >
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
