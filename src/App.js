@@ -45,7 +45,7 @@ function App() {
     <main className="flex flex-col h-screen justify-between">
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <section className="mb-auto">
-        <nav className="flex flex-row text-center justify-center mt-5 mb-10">
+        <nav className="flex flex-row text-center justify-center mt-5">
           {data.socials.map((social) => (
             <Socials
               id={social.id}
@@ -55,11 +55,11 @@ function App() {
             />
           ))}
         </nav>
-        <article className="flex flex-col text-center items-center mt-8">
+        <article className="flex flex-col text-center items-center mt-10">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
           <Posts />
         </article>
-        <article className="flex flex-col text-center items-center mt-5">
+        <article className="flex flex-col text-center items-center mt-10">
           <h1 className="text-xl font-semibold">Get in touch with me!</h1>
           <Contact />
         </article>
