@@ -10,10 +10,11 @@ const Posts = (props) => {
         </div>
         <div className="bg-slate-200 rounded-full p-2 mr-1">
           <form className="flex justify-around">
-            <p></p>
             <img
               src={require("../imgs/Copy_logo1.svg").default}
               alt="Copy Logo"
+              type="submit"
+              formAction=""
               className="h-8 w-8"
             />
             <button id="" type="submit" formAction="">
