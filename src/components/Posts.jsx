@@ -4,9 +4,9 @@ const Posts = (props) => {
   const { title } = props;
   return (
     <>
-      <div className="bg-white rounded-full p-1 w-96 mt-3 cursor-pointer flex flex-row justify-evenly items-center">
+      <div className="bg-white rounded-full p-1 mt-3 cursor-pointer flex flex-row justify-evenly items-center w-full">
         <h3>Sample Post Title!</h3>
-        <div className="bg-slate-200 rounded-full p-2">
+        <div className="bg-slate-200 rounded-full p-2 ">
           <form className="flex justify-around">
             <p></p>
             <img
