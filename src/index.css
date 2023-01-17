@@ -33,13 +33,25 @@ main {
   transition: opacity 2s ease-in-out;
 }
 
-.hover-target {
+.hover-target-slow {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.75s ease;
 }
 
-.hover-trigger:hover .hover-target {
+.hover-trigger:hover .hover-target-slow {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.hover-target-fast {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.hover-trigger:hover .hover-target-fast {
   display: flex;
   visibility: visible;
   opacity: 1;
