@@ -17,7 +17,7 @@ const Button = (props) => {
         </form>
       </div>
       <div className="flex justify-center text-lg font-medium">
-        <h1 className="absolute hover-target">{site_name}</h1>
+        <h1 className="absolute hover-target-slow">{site_name}</h1>
       </div>
     </div>
   );
