@@ -42,7 +42,7 @@ function App() {
   }, 1000);
 
   return (
-    <main className="flex flex-col h-screen justify-between">
+    <main className="flex flex-col h-screen justify-between max-w-screen-md">
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <section className="mb-auto">
         <nav className="flex flex-row text-center justify-center mt-5">
