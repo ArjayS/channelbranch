@@ -10,14 +10,14 @@ const Posts = (props) => {
         <div className="flex justify-center w-10/12">
           <h3 className="text-lg font-medium ml-4">Sample Post Title!</h3>
         </div>
-        <div className="bg-slate-200 rounded-full p-2 mr-1 bg-opacity-25">
+        <div className="bg-slate-200 rounded-full p-2 mr-1 bg-opacity-25 hover-target-fast">
           <form className="flex justify-around">
             <img
               src={require("../imgs/Copy_logo3.svg").default}
               alt="Copy Logo"
               type="submit"
               formAction=""
-              className="h-8 w-8 hover-target-fast"
+              className="h-8 w-8"
             />
             {/* Might need to create a faster hover state on-show of copy-button and hide the dive that contains the backdrop currently seen here */}
             <button id="" type="submit" formAction="">
