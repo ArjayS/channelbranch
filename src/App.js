@@ -55,7 +55,7 @@ function App() {
             />
           ))}
         </nav>
-        <article className="flex flex-col text-center items-center mt-5">
+        <article className="flex flex-col text-center items-center mt-8">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
           <Posts />
         </article>
