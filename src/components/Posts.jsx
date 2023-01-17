@@ -8,7 +8,7 @@ const Posts = (props) => {
         <div className="flex justify-center w-10/12">
           <h3 className="text-lg font-medium ml-4">Sample Post Title!</h3>
         </div>
-        <div className="bg-slate-200 rounded-full p-2 mr-1">
+        <div className="bg-slate-200 rounded-full p-2 mr-1 bg-opacity-25">
           <form className="flex justify-around">
             <img
               src={require("../imgs/Copy_logo1.svg").default}
