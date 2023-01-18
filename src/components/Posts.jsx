@@ -14,9 +14,14 @@ const Posts = (props) => {
         </div>
         <div className="flex justify-center items-center">
           <form>
-            <button id="" type="submit" formAction="" className="">
+            <button
+              id=""
+              type="submit"
+              formAction="https://medium.com/p/29e6d2c3d019/edit"
+              className=""
+            >
               <h3 className="text-lg font-medium font-serif">
-                Sample Post Title!
+                My experience with Pair Programming
               </h3>
             </button>
           </form>
