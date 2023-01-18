@@ -1,7 +1,7 @@
 import React from "react";
 
 const Posts = (props) => {
-  const { title } = props;
+  const { id, website, url } = props;
   return (
     <>
       <div className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300">
