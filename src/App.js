@@ -36,6 +36,8 @@ function App() {
     ],
   };
 
+  const posts = [];
+
   setTimeout(() => {
     const main = document.querySelector("main");
     main.style.opacity = 1;
