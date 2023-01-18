@@ -36,7 +36,13 @@ function App() {
     ],
   };
 
-  const posts = [];
+  const posts = [
+    {
+      id: 1,
+      site_name: "Medium",
+      site_link: "https://medium.com/p/29e6d2c3d019/edit",
+    },
+  ];
 
   setTimeout(() => {
     const main = document.querySelector("main");
