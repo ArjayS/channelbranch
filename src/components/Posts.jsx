@@ -5,7 +5,7 @@ const Posts = (props) => {
   return (
     <>
       {/*  */}
-      <div className="bg-white rounded-full p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger">
+      <div className="bg-white rounded-full p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-500">
         <div className="bg-slate-200 rounded-full bg-opacity-25"></div>
         <div className="flex justify-center">
           <h3 className="text-lg font-medium font-serif">Sample Post Title!</h3>
