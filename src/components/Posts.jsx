@@ -30,7 +30,7 @@ const Posts = (props) => {
           <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
             <form className="flex justify-around">
               <img
-                src={require("../imgs/Copy_logo1.svg").default}
+                src={require("../imgs/Copy_logo2.svg").default}
                 alt="Copy Logo"
                 type="submit"
                 formAction=""
