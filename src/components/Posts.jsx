@@ -25,7 +25,6 @@ const Posts = (props) => {
                 formAction=""
                 className="h-4 w-4"
               />
-              {/* Might need to create a faster hover state on-show of copy-button and hide the dive that contains the backdrop currently seen here */}
               <button id="" type="submit" formAction="">
                 {title}
               </button>
