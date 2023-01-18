@@ -1,14 +1,17 @@
 import React from "react";
 
 const Posts = (props) => {
-  const { id, website, url } = props;
+  const { id, website, title, url } = props;
   return (
     <>
-      <div className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300">
+      <div
+        id={id}
+        className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300"
+      >
         <div className="bg-slate-200 rounded-full bg-opacity-25 ml-1">
           <img
             src={require("../imgs/Medium_white.svg").default}
-            alt="Medium Logo"
+            alt={website}
             className="h-8 w-8"
           />
         </div>
