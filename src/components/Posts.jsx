@@ -22,7 +22,7 @@ const Posts = (props) => {
             </button>
           </form>
         </div>
-        <div className="rounded-md hover:ring-2 ring-slate-400 mr-1">
+        <div className="rounded-md hover:ring-2 ring-slate-400 mr-1 transform transition duration-100">
           <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
             <form className="flex justify-around">
               <img
