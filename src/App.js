@@ -40,6 +40,7 @@ function App() {
     {
       id: 1,
       website: "Medium",
+      logo: require("./imgs/Medium_white.svg").default,
       title: "My experience with Pair Programming",
       url: "https://medium.com/@servadorobert/29e6d2c3d019",
     },
@@ -70,6 +71,7 @@ function App() {
             <Posts
               id={post.id}
               website={post.website}
+              logo={post.logo}
               title={post.title}
               url={post.url}
             />
