@@ -12,8 +12,14 @@ const Posts = (props) => {
             className="h-8 w-8"
           />
         </div>
-        <div className="flex justify-center">
-          <h3 className="text-lg font-medium font-serif">Sample Post Title!</h3>
+        <div className="flex justify-center items-center">
+          <form>
+            <button id="" type="submit" formAction="" className="">
+              <h3 className="text-lg font-medium font-serif">
+                Sample Post Title!
+              </h3>
+            </button>
+          </form>
         </div>
         <div className="rounded-md hover:ring-2 ring-slate-400 mr-1">
           <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
@@ -25,9 +31,6 @@ const Posts = (props) => {
                 formAction=""
                 className="h-4 w-4"
               />
-              <button id="" type="submit" formAction="">
-                {title}
-              </button>
             </form>
           </div>
         </div>
