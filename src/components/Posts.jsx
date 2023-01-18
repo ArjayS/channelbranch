@@ -5,8 +5,8 @@ const Posts = (props) => {
   return (
     <>
       {/*  */}
-      <div className="bg-white rounded-full p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-500">
-        <div className="bg-slate-200 rounded-full bg-opacity-25">
+      <div className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-500">
+        <div className="bg-slate-200 rounded-full bg-opacity-25 ml-1">
           <img
             src={require("../imgs/Medium_white.svg").default}
             alt="Medium Logo"
@@ -16,8 +16,8 @@ const Posts = (props) => {
         <div className="flex justify-center">
           <h3 className="text-lg font-medium font-serif">Sample Post Title!</h3>
         </div>
-        <div className="rounded-full hover:bg-slate-200 hover:ring-2 mr-1">
-          <div className="rounded-full bg-opacity-75 hover-target-fast">
+        <div className="rounded-md hover:ring-2 ring-white mr-1">
+          <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
             <form className="flex justify-around">
               <img
                 src={require("../imgs/Copy_logo3.svg").default}
