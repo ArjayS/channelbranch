@@ -40,6 +40,7 @@ function App() {
     {
       id: 1,
       website: "Medium",
+      title: "My experience with Pair Programming",
       url: "https://medium.com/p/29e6d2c3d019/edit",
     },
   ];
@@ -66,7 +67,12 @@ function App() {
         <article className="flex flex-col text-center items-center mt-10">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
           {posts.map((post) => (
-            <Posts id={post.id} website={post.website} url={post.url} />
+            <Posts
+              id={post.id}
+              website={post.website}
+              title={post.title}
+              url={post.url}
+            />
           ))}
         </article>
         <article className="flex flex-col text-center items-center mt-10">
