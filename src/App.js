@@ -39,8 +39,8 @@ function App() {
   const posts = [
     {
       id: 1,
-      site_name: "Medium",
-      site_link: "https://medium.com/p/29e6d2c3d019/edit",
+      website: "Medium",
+      url: "https://medium.com/p/29e6d2c3d019/edit",
     },
   ];
 
@@ -65,7 +65,9 @@ function App() {
         </nav>
         <article className="flex flex-col text-center items-center mt-10">
           <h1 className="text-xl font-semibold">My Recent Posts!</h1>
-          <Posts />
+          {posts.map((post) => (
+            <Posts id={post.id} website={post.website} url={post.url} />
+          ))}
         </article>
         <article className="flex flex-col text-center items-center mt-10">
           <h1 className="text-xl font-semibold">Get in touch with me!</h1>
