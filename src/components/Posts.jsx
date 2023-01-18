@@ -1,4 +1,5 @@
 import React from "react";
+import CopyToClipboard from "./CopyToClipboard";
 
 const Posts = (props) => {
   const { id, website, logo, title, url } = props;
@@ -18,8 +19,9 @@ const Posts = (props) => {
             </button>
           </form>
         </div>
-        {/* Copuy URL BUTTON */}
-        <div className="rounded-md hover:ring-2 ring-slate-400 mr-1 transform transition duration-100">
+        <CopyToClipboard url={url} />
+        {/*
+        rounded-md hover:ring-2 ring-slate-400 mr-1 transform transition duration-100">
           <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
             <form className="flex justify-around">
               <img
@@ -32,7 +34,7 @@ const Posts = (props) => {
             </form>
           </div>
         </div>
-        {/* Copuy URL BUTTON */}
+*/}
       </div>
     </>
   );
