@@ -1,7 +1,7 @@
 import React from "react";
 
 const Posts = (props) => {
-  const { id, website, title, url } = props;
+  const { id, website, logo, title, url } = props;
   return (
     <>
       <div
@@ -9,11 +9,7 @@ const Posts = (props) => {
         className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300"
       >
         <div className="bg-slate-200 rounded-full bg-opacity-25 ml-1">
-          <img
-            src={require("../imgs/Medium_white.svg").default}
-            alt={website}
-            className="h-8 w-8"
-          />
+          <img src={logo} alt={website} className="h-8 w-8" />
         </div>
         <div className="flex justify-center items-center">
           <form>
@@ -22,6 +18,7 @@ const Posts = (props) => {
             </button>
           </form>
         </div>
+        {/* Copuy URL BUTTON */}
         <div className="rounded-md hover:ring-2 ring-slate-400 mr-1 transform transition duration-100">
           <div className="rounded-full bg-opacity-75 hover-target-fast p-1">
             <form className="flex justify-around">
@@ -35,6 +32,7 @@ const Posts = (props) => {
             </form>
           </div>
         </div>
+        {/* Copuy URL BUTTON */}
       </div>
     </>
   );
