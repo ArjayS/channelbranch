@@ -9,6 +9,10 @@ const Contact = () => {
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
 
+  const [buttonSend, setButtonSend] = useState("Send");
+
+  const [status, setStatus] = useState({});
+
   return (
     <div className="flex flex-col justify-center">
       <form
