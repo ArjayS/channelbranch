@@ -5,12 +5,19 @@ const CopyToClipboard = (props) => {
 
   const [copied, setCopied] = useState(false);
 
-  const copyToClipboard = () => {
-    setCopied(true);
+  const copyToClipboard = async () => {
+    try {
+      setCopied(true);
 
-    setTimeout(() => {
-      setCopied(false);
-    }, 500);
+      await navigator.clipboard.writeText(url);
+
+      console.log(url);
+      setTimeout(() => {
+        setCopied(false);
+      }, 250);
+    } catch (error) {
+      console.error("error:", error);
+    }
   };
 
   return (
