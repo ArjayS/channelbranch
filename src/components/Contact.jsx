@@ -13,6 +13,13 @@ const Contact = () => {
 
   const [status, setStatus] = useState({});
 
+  const onFormUpdate = (section, newValue) => {
+    setFormDetails({
+      ...formDetails,
+      [section]: newValue,
+    });
+  };
+
   return (
     <div className="flex flex-col justify-center w-11/12">
       {/* OLD DESIGN */}
@@ -41,6 +48,8 @@ const Contact = () => {
             <div className="relative mt-1 rounded-md shadow-sm">
               <input
                 type="text"
+                value={formDetails.name}
+                onChange={(event) => onFormUpdate("name", event.target.value)}
                 name="name"
                 id="name"
                 className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
