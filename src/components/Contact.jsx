@@ -80,7 +80,7 @@ const Contact = () => {
             </label>
           </div>
           <div className="relative mt-1 rounded-md shadow-sm">
-            <input
+            <textarea
               type="text"
               name="message"
               id="message"
