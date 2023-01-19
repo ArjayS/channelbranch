@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
-  const formDetails = {
+  const formInitialDetails = {
     name: "",
     email: "",
     message: "",
   };
+
+  const [formDetails, setFormDetails] = useState(formInitialDetails);
+
   return (
     <div className="flex flex-col justify-center">
       <form
