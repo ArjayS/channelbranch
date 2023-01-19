@@ -28,8 +28,8 @@ const Contact = () => {
       </form> */}
       {/* OLD DESIGN */}
       <form>
-        <div className="flex flex-row items-between">
-          <div>
+        <div className="flex flex-row justify-between mt-4">
+          <div className="w-full">
             <label
               for="text"
               className="block text-sm font-medium text-gray-700"
@@ -47,7 +47,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="w-full">
             <label
               for="text"
               className="block text-sm font-medium text-gray-700"
@@ -66,7 +66,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mt-4">
           <label for="text" className="block text-sm font-medium text-gray-700">
             Message
           </label>
