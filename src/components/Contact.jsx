@@ -33,7 +33,7 @@ const Contact = () => {
             <div className="flex justify-between ml-4">
               <label
                 for="text"
-                className="block text-md font-medium text-gray-700"
+                className="block text-xl font-medium text-gray-700"
               >
                 Name
               </label>
@@ -43,7 +43,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 id="name"
-                className="block w-full rounded-md border-gray-300 pl-2 pr-2 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm mt-2"
+                className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
                 placeholder="Your Name"
                 required
               />
@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="flex justify-between ml-4">
               <label
                 for="text"
-                className="block text-md font-medium text-gray-700"
+                className="block text-xl font-medium text-gray-700"
               >
                 Email
               </label>
@@ -63,7 +63,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 id="email"
-                className="block w-full rounded-md border-gray-300 pl-2 pr-2 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm mt-2"
+                className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
                 placeholder="Your Email"
                 required
               />
@@ -74,7 +74,7 @@ const Contact = () => {
           <div className="flex justify-between ml-4">
             <label
               for="text"
-              className="block text-md font-medium text-gray-700 "
+              className="block text-xl font-medium text-gray-700 "
             >
               Message
             </label>
@@ -84,7 +84,7 @@ const Contact = () => {
               type="text"
               name="message"
               id="message"
-              className="block w-full rounded-md border-gray-300 pl-2 pr-2 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm mt-2"
+              className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
               placeholder="Your Message"
               required
             />
