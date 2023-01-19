@@ -1,6 +1,11 @@
 import React from "react";
 
 const Contact = () => {
+  const formDetails = {
+    name: "",
+    email: "",
+    message: "",
+  };
   return (
     <div className="flex flex-col justify-center">
       <form
