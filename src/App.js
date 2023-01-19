@@ -66,7 +66,7 @@ function App() {
           ))}
         </nav>
         <article className="flex flex-col text-center items-center mt-10">
-          <h1 className="text-xl font-semibold">My Recent Posts!</h1>
+          <h1 className="text-2xl font-semibold">My Recent Posts!</h1>
           {posts.map((post) => (
             <Posts
               id={post.id}
@@ -78,7 +78,7 @@ function App() {
           ))}
         </article>
         <article className="flex flex-col text-center items-center mt-10">
-          <h1 className="text-xl font-semibold">Get in touch with me!</h1>
+          <h1 className="text-2xl font-semibold">Get in touch with me!</h1>
           <Contact />
         </article>
       </section>
