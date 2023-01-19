@@ -11,7 +11,8 @@ const CopyToClipboard = (props) => {
 
       await navigator.clipboard.writeText(url);
 
-      console.log(url);
+      // console.log(url);
+
       setTimeout(() => {
         setCopied(false);
       }, 250);
