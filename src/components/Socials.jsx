@@ -4,7 +4,7 @@ const Button = (props) => {
   const { id, site_name, site_link, site_logo } = props;
   return (
     <div className="mt-2 relative hover-trigger">
-      <div className="bg-white rounded-full p-3 m-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-50">
+      <div className="bg-white rounded-full p-3 m-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-250">
         <form className="flex justify-around">
           <button
             id={id}
