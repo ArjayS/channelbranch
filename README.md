@@ -19,3 +19,6 @@ it will show links to my social media with the right thumbnail. Here is the miro
 
 - 2023-01-15, Re-arrange the social links and added a section for recent posts and contact form to communicate to me via my email!
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230115update.JPG)
+
+- 2023-01-18, Made a lot of changes on the arrangement of social links and added a posts section that contains hover effects and copy to url function. Added a few more functioning features such as show social name on hover on each site and copy url feature on the posts section. I will try and finish the form contact submission to my email tomorrow and also add a day and night scrolling!
+  !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230118update.JPG)
