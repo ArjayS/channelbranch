@@ -103,9 +103,11 @@ const Contact = () => {
             />
           </div>
         </div>
-        <button type="submit" className="mt-4">
-          {buttonSend}
-        </button>
+        <div className="flex flex-col w-full mt-4">
+          <button type="submit" className="">
+            {buttonSend}
+          </button>
+        </div>
       </form>
     </div>
   );
