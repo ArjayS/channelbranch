@@ -103,8 +103,11 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full mt-4">
-          <button type="submit" className="">
+        <div className="flex flex-col justify-center mt-4">
+          <button
+            type="submit"
+            className="bg-white rounded-full p-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-250"
+          >
             {buttonSend}
           </button>
         </div>
