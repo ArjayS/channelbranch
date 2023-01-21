@@ -20,6 +20,8 @@ const Contact = () => {
     });
   };
 
+  const handleSubmit = () => {};
+
   return (
     <div className="flex flex-col justify-center w-11/12">
       {/* OLD DESIGN */}
@@ -34,7 +36,7 @@ const Contact = () => {
         <button type="submit">Send</button>
       </form> */}
       {/* OLD DESIGN */}
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="flex flex-row justify-between mt-4">
           <div className="w-full mr-4">
             <div className="flex justify-between ml-4">
