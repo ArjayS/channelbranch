@@ -19,7 +19,10 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setFormDetails(formInitialDetails);
+  };
 
   return (
     <div className="flex flex-col justify-center w-11/12">
