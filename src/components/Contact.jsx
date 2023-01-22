@@ -38,7 +38,11 @@ const Contact = () => {
         <button type="submit">Send</button>
       </form> */}
       {/* OLD DESIGN */}
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={handleSubmit}
+        action="https://formsubmit.co/servadorobert@gmail.com"
+        method="POST"
+      >
         <div className="flex flex-row justify-between mt-4">
           <div className="w-full mr-4">
             <div className="flex justify-between ml-4">
