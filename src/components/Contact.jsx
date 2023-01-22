@@ -110,6 +110,7 @@ const Contact = () => {
             className="bg-white rounded-full p-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-250"
           >
             {/* {buttonSend} */}
+            Send
           </button>
         </div>
       </form>
