@@ -9,9 +9,8 @@ const Contact = () => {
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
 
-  const [buttonSend, setButtonSend] = useState("Send");
-
-  const [status, setStatus] = useState({});
+  // const [buttonSend, setButtonSend] = useState("Send");
+  // const [status, setStatus] = useState({});
 
   const onFormUpdate = (section, newValue) => {
     setFormDetails({
@@ -110,7 +109,7 @@ const Contact = () => {
             type="submit"
             className="bg-white rounded-full p-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-250"
           >
-            {buttonSend}
+            {/* {buttonSend} */}
           </button>
         </div>
       </form>
