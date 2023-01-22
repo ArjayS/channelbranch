@@ -35,8 +35,6 @@ const Contact = () => {
             <div className="relative mt-1 rounded-md shadow-sm">
               <input
                 type="text"
-                value={formDetails.name}
-                onChange={(event) => onFormUpdate("name", event.target.value)}
                 name="name"
                 id="name"
                 className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
@@ -57,8 +55,6 @@ const Contact = () => {
             <div className="relative mt-1 rounded-md shadow-sm">
               <input
                 type="email"
-                value={formDetails.email}
-                onChange={(event) => onFormUpdate("email", event.target.value)}
                 name="email"
                 id="email"
                 className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
@@ -80,8 +76,6 @@ const Contact = () => {
           <div className="relative mt-1 rounded-md shadow-sm">
             <textarea
               type="text"
-              value={formDetails.message}
-              onChange={(event) => onFormUpdate("message", event.target.value)}
               name="message"
               id="message"
               className="block w-full rounded-md border-gray-300 pl-2 pr-2 py-1 focus:border-indigo-500 focus:ring-indigo-500 sm:text-md mt-2"
