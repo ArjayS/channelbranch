@@ -1,21 +1,6 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  const formInitialDetails = {
-    name: "",
-    email: "",
-    message: "",
-  };
-
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
-
-  const onFormUpdate = (section, newValue) => {
-    setFormDetails({
-      ...formDetails,
-      [section]: newValue,
-    });
-  };
-
   return (
     <div className="flex flex-col justify-center w-11/12">
       <form
