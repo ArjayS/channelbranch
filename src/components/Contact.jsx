@@ -19,10 +19,10 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setFormDetails(formInitialDetails);
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   setFormDetails(formInitialDetails);
+  // };
 
   return (
     <div className="flex flex-col justify-center w-11/12">
@@ -39,7 +39,7 @@ const Contact = () => {
       </form> */}
       {/* OLD DESIGN */}
       <form
-        onSubmit={handleSubmit}
+        // onSubmit={handleSubmit}
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
       >
