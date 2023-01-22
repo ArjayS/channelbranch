@@ -9,9 +9,6 @@ const Contact = () => {
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
 
-  // const [buttonSend, setButtonSend] = useState("Send");
-  // const [status, setStatus] = useState({});
-
   const onFormUpdate = (section, newValue) => {
     setFormDetails({
       ...formDetails,
@@ -19,15 +16,9 @@ const Contact = () => {
     });
   };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   setFormDetails(formInitialDetails);
-  // };
-
   return (
     <div className="flex flex-col justify-center w-11/12">
       <form
-        // onSubmit={handleSubmit}
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
       >
@@ -104,7 +95,6 @@ const Contact = () => {
             type="submit"
             className="bg-white rounded-full p-3 cursor-pointer bg-opacity-50 backdrop-filter backdrop-blur-md ring-neutral-100 hover:ring-2 transform transition duration-250"
           >
-            {/* {buttonSend} */}
             Send
           </button>
         </div>
