@@ -21,8 +21,8 @@ const ThankYou = () => {
           </svg>
           <h1 class="text-4xl font-bold">Thank You !</h1>
           <p>
-            Thank you for your interest! Check your email for a link to the
-            guide.
+            Thank you for leaving me a message! I will get bak to you as soon as
+            I can!
           </p>
           <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
             <svg
