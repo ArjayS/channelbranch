@@ -3,7 +3,7 @@ import React from "react";
 const ThankYou = () => {
   return (
     <div class="flex items-center justify-center h-screen">
-      <div>
+      <div class="p-4 rounded shadow-lg ring ring-indigo-600/50">
         <div class="flex flex-col items-center space-y-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
