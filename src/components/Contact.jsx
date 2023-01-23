@@ -7,6 +7,11 @@ const Contact = () => {
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
       >
+        <input
+          type="hidden"
+          name="_subject"
+          value="A person wants to talk to you! wow! possible new oppurtunity! HECK YEA!"
+        ></input>
         <div className="flex flex-row justify-between mt-4">
           <div className="w-full mr-4">
             <div className="flex justify-between ml-4">
