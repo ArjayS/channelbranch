@@ -11,8 +11,8 @@ const Contact = () => {
           type="hidden"
           name="_subject"
           value="A person wants to talk to you! wow! possible new oppurtunity! HECK YEA!"
-        ></input>
-        <input type="hidden" name="_captcha" value="false"></input>
+        />
+        <input type="hidden" name="_captcha" value="false" />
         <div className="flex flex-row justify-between mt-4">
           <div className="w-full mr-4">
             <div className="flex justify-between ml-4">
