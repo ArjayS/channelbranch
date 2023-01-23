@@ -44,6 +44,13 @@ function App() {
       title: "My experience with Pair Programming",
       url: "https://medium.com/@servadorobert/29e6d2c3d019",
     },
+    {
+      id: 2,
+      website: "LinkedIN",
+      logo: require("./imgs/LinkedIn_white.svg").default,
+      title: "Lighthouse Labs Web Flex Diploma",
+      url: "https://www.linkedin.com/feed/update/urn:li:activity:7022295304423043072/",
+    },
   ];
 
   setTimeout(() => {
