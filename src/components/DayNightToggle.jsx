@@ -10,10 +10,20 @@ const DayNightToggle = () => {
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
   return (
     <>
-      <div className="h-screen bg-white flex justify-center items-center">
-        <button className="bg-green-200 p-4 rounded-3xl">Dark</button>
+      <div className="h-screen bg-white dark:bg-black lex justify-center items-center">
+        <button
+          className="bg-green-200 p-4 rounded-3xl"
+          onClick={handleThemeSwitch}
+        >
+          Dark
+        </button>
       </div>
     </>
   );
