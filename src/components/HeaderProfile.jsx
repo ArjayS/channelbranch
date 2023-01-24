@@ -4,7 +4,7 @@ const Main = (props) => {
   const { name, image, bio } = props;
   return (
     <>
-      <header className="flex text-center flex-col items-center h-50 mt-5">
+      <header className="flex text-center flex-col items-center h-50 mt-2">
         <div className="ring-2 ring-white rounded-full p-1">
           <img
             src={image}
