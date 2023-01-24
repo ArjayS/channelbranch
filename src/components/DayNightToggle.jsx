@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 const DayNightToggle = () => {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+    }
+  }, [theme]);
   return (
     <>
       <div className="h-screen bg-white flex justify-center items-center">
