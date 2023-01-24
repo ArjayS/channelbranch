@@ -17,7 +17,7 @@ const Contact = () => {
           type="hidden"
           name="_next"
           value="http://localhost:3000/thankyou"
-        ></input>
+        />
         <div className="flex flex-row justify-between mt-4">
           <div className="w-full mr-4">
             <div className="flex justify-between ml-4">
