@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 const DayNightToggle = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }, []);
 
   useEffect(() => {
     if (theme === "dark") {
