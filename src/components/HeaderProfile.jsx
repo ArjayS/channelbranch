@@ -1,9 +1,11 @@
 import React from "react";
+import DayNightToggle from "./DayNightToggle";
 
 const Main = (props) => {
   const { name, image, bio } = props;
   return (
     <>
+      <DayNightToggle />
       <header className="flex text-center flex-col items-center h-50 mt-2">
         <div className="ring-2 ring-white rounded-full p-1">
           <img
