@@ -17,12 +17,12 @@ const DayNightToggle = () => {
 
   return (
     <>
-      <div className="h-screen bg-white dark:bg-black lex justify-center items-center">
+      <div className="h-screen bg-white dark:bg-black flex justify-center items-center">
         <button
           className="bg-green-200 p-4 rounded-3xl"
           onClick={handleThemeSwitch}
         >
-          Dark
+          DayNightToggle
         </button>
       </div>
     </>
