@@ -24,7 +24,7 @@ const ThankYou = () => {
             Thank you for leaving me a message! I will get bak to you as soon as
             I can!
           </p>
-          <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
+          <form className="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-3 h-3 mr-2"
@@ -39,8 +39,15 @@ const ThankYou = () => {
                 d="M7 16l-4-4m0 0l4-4m-4 4h18"
               />
             </svg>
-            <span class="text-sm font-medium">Home</span>
-          </a>
+            <button
+              id="id"
+              type="submit"
+              formAction="http://localhost:3000/"
+              className="h-12 w-12"
+            >
+              <span class="text-sm font-medium">Home</span>
+            </button>
+          </form>
         </div>
       </div>
     </div>
