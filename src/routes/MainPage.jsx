@@ -3,6 +3,7 @@ import HeaderProfile from "../components/HeaderProfile";
 import Socials from "../components/Socials";
 import Posts from "../components/Posts";
 import Contact from "../components/Contact";
+import DayNightToggle from "../components/DayNightToggle";
 
 const MainPage = () => {
   const data = {
@@ -56,6 +57,7 @@ const MainPage = () => {
 
   return (
     <>
+      <DayNightToggle />
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <section className="mb-auto">
         <nav className="flex flex-row text-center justify-center mt-5">
