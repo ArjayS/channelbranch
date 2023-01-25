@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
 
 function App() {
-  setTimeout(() => {
-    const main = document.querySelector("main");
-    main.style.opacity = 1;
-  }, 1000);
+  useEffect(() => {
+    setTimeout(() => {
+      const main = document.querySelector("main");
+      main.style.opacity = 1;
+    }, 1000);
+  }, []);
 
   return (
     <main className="flex flex-col h-screen justify-between max-w-screen-md">
