@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const DayNightToggle = () => {
+const DayNightToggle = (props) => {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
