@@ -57,7 +57,7 @@ const MainPage = () => {
   return (
     <>
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
-      <section className="mb-auto">
+      <section className="mb-auto flex flex-col justify-center">
         <nav className="flex flex-row text-center justify-center mt-5">
           {data.socials.map((social) => (
             <Socials
