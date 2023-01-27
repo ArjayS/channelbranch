@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, createContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
+
+export const ThemeContext = createContext("light");
 
 function App() {
   useEffect(() => {
