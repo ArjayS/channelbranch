@@ -22,10 +22,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <main
-        className="flex flex-col h-screen justify-between max-w-screen-full"
-        id={theme}
-      >
+      <main className="flex flex-col h-screen justify-between" id={theme}>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<MainPage />} />
