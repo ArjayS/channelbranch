@@ -7,7 +7,7 @@ import ThankYouPage from "./routes/ThankYouPage";
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -22,14 +22,16 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <main className="flex flex-col h-screen justify-between" id={theme}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/thankyou" element={<ThankYouPage />} />
-          </Routes>
-        </BrowserRouter>
-      </main>
+      <div id={theme}>
+        <main className="flex flex-col h-screen justify-between">
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<MainPage />} />
+              <Route path="/thankyou" element={<ThankYouPage />} />
+            </Routes>
+          </BrowserRouter>
+        </main>
+      </div>
     </ThemeContext.Provider>
   );
 }
