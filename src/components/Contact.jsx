@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center w-11/12">
+    <div className="flex flex-col justify-center w-11/12 max-w-screen-md">
       <form
         action="https://formsubmit.co/servadorobert@gmail.com"
         method="POST"
