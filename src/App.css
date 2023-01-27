@@ -1,7 +1,27 @@
 #light {
-  background-color: aliceblue;
+  background: linear-gradient(-45deg, #ee7752, #e7de3c, #23d52f, #d30d45);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100%;
+  width: 100vw;
 }
 
 #dark {
-  background-color: black;
+  background: linear-gradient(-45deg, #6d220b, #59550b, #0b5811, #4b081b);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100%;
+  width: 100vw;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
