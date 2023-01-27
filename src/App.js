@@ -1,4 +1,4 @@
-import React, { useEffect, createContext } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
@@ -6,6 +6,12 @@ import ThankYouPage from "./routes/ThankYouPage";
 export const ThemeContext = createContext(null);
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   useEffect(() => {
     setTimeout(() => {
       const main = document.querySelector("main");
@@ -14,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
       <main
         className="flex flex-col h-screen justify-between max-w-screen-md"
         id="light"
