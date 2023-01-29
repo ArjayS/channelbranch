@@ -32,7 +32,7 @@ const DayNightToggle = (props) => {
         >
           DayNightToggle
         </button> */}
-        <input type="checkbox" id="darkmode-toggle" />
+        <input type="checkbox" className="dn-input" id="darkmode-toggle" />
         <label className="dn-toggle" for="darkmode-toggle"></label>
       </div>
     </>
