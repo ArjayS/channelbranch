@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const DayNightToggle = (props) => {
+  const { onChange, checked } = props;
   // const [theme, setTheme] = useState(null);
 
   // useEffect(() => {
@@ -32,7 +33,13 @@ const DayNightToggle = (props) => {
         >
           DayNightToggle
         </button> */}
-        <input type="checkbox" className="dn-input" id="darkmode-toggle" />
+        <input
+          type="checkbox"
+          onChange={onChange}
+          checked={checked}
+          className="dn-input"
+          id="darkmode-toggle"
+        />
         <label className="dn-toggle" for="darkmode-toggle"></label>
       </div>
     </>
