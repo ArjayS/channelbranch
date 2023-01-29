@@ -4,6 +4,7 @@ import "./App.css";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
 import ReactSwitch from "react-switch";
+import DayNightToggle from "./components/DayNightToggle";
 
 export const ThemeContext = createContext(null);
 
@@ -27,7 +28,9 @@ function App() {
         <div>
           <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          <DayNightToggle />
         </div>
+
         <main className="flex flex-col h-screen justify-between">
           <BrowserRouter>
             <Routes>
