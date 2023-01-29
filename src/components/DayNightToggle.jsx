@@ -1,37 +1,39 @@
 import React, { useState, useEffect } from "react";
 
 const DayNightToggle = (props) => {
-  const [theme, setTheme] = useState(null);
+  // const [theme, setTheme] = useState(null);
 
-  useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, [theme]);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  // const handleThemeSwitch = () => {
+  //   setTheme(theme === "dark" ? "light" : "dark");
+  // };
 
   return (
     <>
       <div className="h-screen bg-white dark:bg-black flex justify-center items-center">
-        <button
+        {/* <button
           className="bg-green-200 p-4 rounded-3xl"
           onClick={handleThemeSwitch}
         >
           DayNightToggle
-        </button>
+        </button> */}
+        <input type="checkbox" id="darkmode-toggle" />
+        <label for="darkmode-toggle"></label>
       </div>
     </>
   );
