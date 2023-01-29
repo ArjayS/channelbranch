@@ -27,7 +27,7 @@ const DayNightToggle = (props) => {
   return (
     <>
       {/* <div className="h-screen bg-white dark:bg-black flex justify-center items-center"> */}
-      <div className="m-0 h-screen w-screen flex flex-col justify-center items-center">
+      <div className="m-0 h-10 w-screen flex flex-col justify-center items-center">
         {/* <button
           className="bg-green-200 p-4 rounded-3xl"
           onClick={handleThemeSwitch}
