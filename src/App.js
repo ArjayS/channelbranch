@@ -28,7 +28,7 @@ function App() {
         <div>
           <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-          <DayNightToggle />
+          <DayNightToggle onChange={toggleTheme} checked={theme === "dark"} />
         </div>
 
         <main className="flex flex-col h-screen justify-between">
