@@ -61,12 +61,16 @@
   visibility: hidden;
 }
 
-.dn-input:checked + label {
+.dn-input:checked + .dn-toggle {
   background: #242424;
 }
 
-.dn-input:checked + label:after {
+.dn-input:checked + .dn-toggle:after {
   left: 490px;
   transform: translateX(-100%);
   background: linear-gradient(180deg, #777, #3a3a3a);
+}
+
+.dn-toggle:active:after {
+  width: 260px;
 }
