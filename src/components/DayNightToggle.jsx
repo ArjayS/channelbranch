@@ -38,10 +38,13 @@ const DayNightToggle = (props) => {
           type="checkbox"
           onChange={onChange}
           checked={checked}
-          className="dn-input"
+          className="dn-input w-0 h-0 invisible"
           id="darkmode-toggle"
         />
-        <label className="dn-toggle" for="darkmode-toggle"></label>
+        <label
+          className="dn-toggle w-12 h-5 relative block bg-cyan-100 rounded-2xl cursor-pointer ease-in duration-300"
+          for="darkmode-toggle"
+        ></label>
       </div>
     </>
   );
