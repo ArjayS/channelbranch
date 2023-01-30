@@ -25,10 +25,13 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div id={theme}>
-        <div className="flex flex-row">
-          <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+        <div className="flex flex-col">
           {/* <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> */}
-          <DayNightToggle onChange={toggleTheme} checked={theme === "dark"} />
+          <DayNightToggle
+            onChange={toggleTheme}
+            checked={theme === "dark"}
+            theme={theme}
+          />
         </div>
 
         <main className="flex flex-col h-screen justify-between">
