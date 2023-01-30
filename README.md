@@ -25,3 +25,6 @@ it will show links to my social media with the right thumbnail. Here is the miro
 
 - 2023-01-21, Finalize the messaging in my small site using formsubmit backend API. For future projects on using nodemailer. I need to setup a separate backend file to establish connection to my frontend. Here is the current look of my site. I will finalize this project by adding a day and night toggle to view my small link site.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230121update.JPG)
+
+- 2023-01-29, Added a Day and night Toggle on my site.
+  !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230129update.JPG)
