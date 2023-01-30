@@ -4,7 +4,11 @@
   animation: gradient 15s ease infinite;
   min-height: 100%;
   width: 100vw;
-  /* height: 100vh; */
+  /* Full Desktop Screen / Ipad Air (820 X 1180) - height: 105vh */
+  /* Nest Hub Max (1280 X 800) - height: 135vh */
+  /* Nest Hub Max (1024 X 600) - height: 180vh */
+  /* Samsung Galaxy S8+ (360 X 740) - height: 160vh */
+  height: 105vh;
 }
 
 #dark {
@@ -13,7 +17,7 @@
   animation: gradient 15s ease infinite;
   min-height: 100%;
   width: 100vw;
-  /* height: 100vh; */
+  height: 105vh;
 }
 
 @keyframes gradient {
