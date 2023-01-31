@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
-import ReactSwitch from "react-switch";
 import DayNightToggle from "./components/DayNightToggle";
 
 export const ThemeContext = createContext(null);
@@ -26,7 +25,6 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div id={theme}>
         <div className="flex flex-col">
-          {/* <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> */}
           <DayNightToggle
             onChange={toggleTheme}
             checked={theme === "dark"}
