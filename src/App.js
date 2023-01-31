@@ -24,8 +24,8 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <main className="flex flex-col text-center items-center mt-10" id={theme}>
-        <header className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300">
+      <main className="flex flex-col text-center items-center" id={theme}>
+        <header className="bg-white rounded-lg p-1 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300">
           <Socials />
           <DayNightToggle
             onChange={toggleTheme}
