@@ -27,25 +27,27 @@ const DayNightToggle = (props) => {
   return (
     <>
       {/* <div className="h-screen bg-white dark:bg-black flex justify-center items-center"> */}
-      <div className="m-0 h-10 w-screen flex flex-row justify-center items-center">
+      <div className="m-0 h-10 w-screen flex flex-col justify-center items-center">
         {/* <button
           className="bg-green-200 p-4 rounded-3xl"
           onClick={handleThemeSwitch}
         >
           DayNightToggle
         </button> */}
+        <div>
+          <input
+            type="checkbox"
+            onChange={onChange}
+            checked={checked}
+            className="dn-input w-0 h-0 invisible"
+            id="darkmode-toggle"
+          />
+          <label
+            className="dn-toggle w-10 h-5 relative block bg-cyan-100 rounded-2xl cursor-pointer ease-in duration-300"
+            for="darkmode-toggle"
+          ></label>
+        </div>
         <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-        <input
-          type="checkbox"
-          onChange={onChange}
-          checked={checked}
-          className="dn-input w-0 h-0 invisible"
-          id="darkmode-toggle"
-        />
-        <label
-          className="dn-toggle w-10 h-5 relative block bg-cyan-100 rounded-2xl cursor-pointer ease-in duration-300"
-          for="darkmode-toggle"
-        ></label>
       </div>
     </>
   );
