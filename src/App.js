@@ -4,6 +4,7 @@ import "./App.css";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
 import DayNightToggle from "./components/DayNightToggle";
+import Socials from "./components/Socials";
 
 export const ThemeContext = createContext(null);
 
@@ -23,8 +24,9 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <main id={theme}>
-        <header className="flex flex-col">
+      <main className="flex flex-col text-center items-center mt-10" id={theme}>
+        <header className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300">
+          <Socials />
           <DayNightToggle
             onChange={toggleTheme}
             checked={theme === "dark"}
