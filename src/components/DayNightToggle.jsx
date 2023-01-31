@@ -43,7 +43,7 @@ const DayNightToggle = (props) => {
           id="darkmode-toggle"
         />
         <label
-          className="dn-toggle w-12 h-5 relative block bg-cyan-100 rounded-2xl cursor-pointer ease-in duration-300"
+          className="dn-toggle w-10 h-5 relative block bg-cyan-100 rounded-2xl cursor-pointer ease-in duration-300"
           for="darkmode-toggle"
         ></label>
       </div>
