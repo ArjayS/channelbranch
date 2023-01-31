@@ -27,7 +27,7 @@ const DayNightToggle = (props) => {
   return (
     <>
       {/* <div className="h-screen bg-white dark:bg-black flex justify-center items-center"> */}
-      <div className="m-0 h-10 flex flex-col justify-center items-center">
+      <div className="m-0 h-10 flex flex-col justify-center items-center hover-trigger">
         {/* <button
           className="bg-green-200 p-4 rounded-3xl"
           onClick={handleThemeSwitch}
@@ -47,7 +47,9 @@ const DayNightToggle = (props) => {
             for="darkmode-toggle"
           ></label>
         </div>
-        <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+        <label className="mt-0.25 hover-target-slow">
+          {theme === "light" ? "Light Mode" : "Dark Mode"}
+        </label>
       </div>
     </>
   );
