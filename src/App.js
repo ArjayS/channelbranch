@@ -23,24 +23,23 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div id={theme}>
-        <div className="flex flex-col">
+      <main id={theme}>
+        <header className="flex flex-col">
           <DayNightToggle
             onChange={toggleTheme}
             checked={theme === "dark"}
             theme={theme}
           />
-        </div>
-
-        <main className="flex flex-col h-screen justify-between">
+        </header>
+        <div className="flex flex-col h-screen justify-between">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<MainPage />} />
               <Route path="/thankyou" element={<ThankYouPage />} />
             </Routes>
           </BrowserRouter>
-        </main>
-      </div>
+        </div>
+      </main>
     </ThemeContext.Provider>
   );
 }
