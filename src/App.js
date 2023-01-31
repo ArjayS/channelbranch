@@ -4,7 +4,7 @@ import "./App.css";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
 import DayNightToggle from "./components/DayNightToggle";
-import Socials from "./components/Socials";
+import CopyToClipboard from "./components/CopyToClipboard";
 
 export const ThemeContext = createContext(null);
 
@@ -28,15 +28,15 @@ function App() {
         className="flex flex-col h-screen w-screen text-center items-center"
         id={theme}
       >
-        <header className="bg-white rounded-lg cursor-pointer flex flex-row w-6/12 justify-between items-center bg-opacity-50 w-">
-          <Socials />
+        <header className="bg-white rounded-lg cursor-pointer flex flex-row w-6/12 justify-between items-center bg-opacity-50">
+          <CopyToClipboard url={"https://localhost:3000"} />
           <DayNightToggle
             onChange={toggleTheme}
             checked={theme === "dark"}
             theme={theme}
           />
         </header>
-        <div className="flex flex-col h-screen w-screen justify-between">
+        <div className="flex flex-col w-screen justify-between">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<MainPage />} />
