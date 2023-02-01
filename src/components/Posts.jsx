@@ -7,10 +7,10 @@ const Posts = (props) => {
     <>
       <div
         id={id}
-        className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-50 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300"
+        className="bg-white rounded-lg p-1 mt-3 cursor-pointer flex flex-row justify-between items-center w-11/12 bg-opacity-30 backdrop-filter backdrop-blur-md max-w-screen-md hover:scale-110 hover-trigger transform transition duration-300"
       >
-        <div className="bg-slate-200 rounded-full bg-opacity-25 ml-1">
-          <img src={logo} alt={website} className="h-8 w-8" />
+        <div className="ml-1">
+          <img src={logo} alt={website} className="h-7 w-7" />
         </div>
         <div className="flex justify-center items-center">
           <form>
