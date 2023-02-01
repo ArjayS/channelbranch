@@ -28,8 +28,10 @@ function App() {
         className="flex flex-col h-screen w-screen text-center items-center"
         id={theme}
       >
-        <header className="bg-white rounded-lg cursor-pointer flex flex-row w-6/12 justify-between items-center bg-opacity-50">
-          <CopyToClipboard url={"https://localhost:3000"} />
+        <header className="cursor-pointer flex flex-row w-4/12 justify-between items-center bg-opacity-50 mt-5">
+          <div className="bg-slate-200 rounded-md bg-opacity-25">
+            <CopyToClipboard url={"https://localhost:3000"} />
+          </div>
           <DayNightToggle
             onChange={toggleTheme}
             checked={theme === "dark"}
