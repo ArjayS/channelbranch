@@ -84,7 +84,7 @@ function App() {
             theme={theme}
           />
         </header>
-        <div className="flex flex-col w-screen justify-between">
+        <div className="flex flex-col h-screen w-screen justify-between">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<MainPage />} />
