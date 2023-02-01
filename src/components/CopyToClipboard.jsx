@@ -23,7 +23,7 @@ const CopyToClipboard = (props) => {
 
   return (
     <>
-      <div className="rounded-md hover:ring-2 ring-slate-400 m-1 transform transition duration-100">
+      <div className="rounded-md hover:ring-2 ring-slate-400 transform transition duration-100">
         <div className="rounded-full bg-opacity-75 h-9 w-9">
           {copied ? (
             <div className="p-1">{copy_success}</div>
