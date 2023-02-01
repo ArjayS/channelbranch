@@ -26,7 +26,7 @@ const CopyToClipboard = (props) => {
           {copied ? (
             <div className="p-1">{copy_success}</div>
           ) : (
-            <button className="p-1" onClick={copyToClipboard}>
+            <button className="p-1 h-9 w-9" onClick={copyToClipboard}>
               {copy_logo}
             </button>
           )}
