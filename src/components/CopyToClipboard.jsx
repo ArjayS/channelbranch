@@ -26,7 +26,7 @@ const CopyToClipboard = (props) => {
       <div className="rounded-md hover:ring-2 ring-slate-400 m-1 transform transition duration-100">
         <div className="rounded-full bg-opacity-75">
           {copied ? (
-            copy_success
+            <div className="p-1">{copy_success}</div>
           ) : (
             <button className="p-1" onClick={copyToClipboard}>
               {copy_logo}
