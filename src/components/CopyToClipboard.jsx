@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const CopyToClipboard = (props) => {
   const { url, copy_logo, copy_success } = props;
@@ -11,11 +11,9 @@ const CopyToClipboard = (props) => {
 
       await navigator.clipboard.writeText(url);
 
-      // console.log(url);
-
       setTimeout(() => {
         setCopied(false);
-      }, 250);
+      }, 275);
     } catch (error) {
       console.error("error:", error);
     }
