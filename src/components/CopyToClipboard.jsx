@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const CopyToClipboard = (props) => {
   const { url, copy_logo, copy_success } = props;
