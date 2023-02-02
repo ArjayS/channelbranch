@@ -64,3 +64,10 @@
 .dn-toggle:active:after {
   width: 26px;
 }
+
+.dn-input:checked + label .sun {
+  fill: #7e7e7e;
+}
+.dn-input:checked + label .moon {
+  fill: #fff;
+}
