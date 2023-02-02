@@ -8,6 +8,7 @@
   /* Nest Hub Max (1280 X 800) - height: 135vh */
   /* Nest Hub Max (1024 X 600) - height: 180vh */
   /* Samsung Galaxy S8+ (360 X 740) - height: 160vh */
+  /* (w x h) = (2560 X 1320) /// 1320px = 82.5 rem */
   height: 105vh;
 }
 
