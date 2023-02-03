@@ -23,7 +23,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
       <main
-        className="flex flex-col h-screen w-screen text-center items-center"
+        className="flex flex-col h-screen w-screen text-center justify-between items-center"
         id={theme}
       >
         <div className="flex flex-col h-screen w-screen justify-between">
