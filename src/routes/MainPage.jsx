@@ -3,6 +3,7 @@ import HeaderProfile from "../components/HeaderProfile";
 import Socials from "../components/Socials";
 import Posts from "../components/Posts";
 import Contact from "../components/Contact";
+import Header from "../components/Header";
 
 const MainPage = () => {
   const data = {
@@ -56,6 +57,7 @@ const MainPage = () => {
 
   return (
     <>
+      <Header />
       <HeaderProfile name={data.name} image={data.image} bio={data.bio} />
       <section className="mb-auto flex flex-col justify-center">
         <nav className="flex flex-row text-center justify-center mt-5">
