@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import MainPage from "./routes/MainPage";
 import ThankYouPage from "./routes/ThankYouPage";
-import DayNightToggle from "./components/DayNightToggle";
-import CopyToClipboard from "./components/CopyToClipboard";
 
 export const ThemeContext = createContext(null);
 
