@@ -7,7 +7,7 @@ import "../App.css";
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <>
+    <div className="flex flex-col items-center">
       <header className="cursor-pointer flex flex-row w-4/12 justify-between items-center bg-opacity-50 mt-5">
         <div className="bg-slate-200 rounded-md bg-opacity-25">
           <CopyToClipboard
@@ -64,7 +64,7 @@ const Header = () => {
           theme={theme}
         />
       </header>
-    </>
+    </div>
   );
 };
 
