@@ -4,12 +4,12 @@
   animation: gradient 15s ease infinite;
   min-height: 100%;
   width: 100vw;
-  /* Full Desktop Screen / Ipad Air (820 X 1180) - height: 105vh */
-  /* Nest Hub Max (1280 X 800) - height: 135vh */
-  /* Nest Hub Max (1024 X 600) - height: 180vh */
-  /* Samsung Galaxy S8+ (360 X 740) - height: 160vh */
   /* (w x h) = (2560 X 1320) /// 1320px = 82.5 rem */
-  height: 105vh;
+  /* Full Desktop Screen / Ipad Air (820 X 1180) - height: 100vh = 82.5em */
+  /* Nest Hub Max (1280 X 800) - height: 70em */
+  /* Nest Hub (1024 X 600) - height: 70em */
+  /* Samsung Galaxy S8+ (360 X 740) - height: 160vh */
+  height: 100vh;
 }
 
 #dark {
@@ -18,7 +18,7 @@
   animation: gradient 15s ease infinite;
   min-height: 100%;
   width: 100vw;
-  height: 105vh;
+  height: 82.5em;
 }
 
 @keyframes gradient {
