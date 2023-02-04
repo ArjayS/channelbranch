@@ -87,7 +87,7 @@ const MainPage = () => {
           <Contact />
         </article>
       </section>
-      <footer className="flex flex-col text-center text-lg font-medium sticky top-full h-24">
+      <footer className="flex flex-col text-center text-lg font-medium sticky top-full h-16">
         <p>
           <span>&copy;</span> 2023
         </p>
