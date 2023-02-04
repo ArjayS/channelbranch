@@ -8,8 +8,10 @@
   /* Full Desktop Screen / Ipad Air (820 X 1180) - height: 100vh = 82em */
   /* Nest Hub Max (1280 X 800) - height: 70em */
   /* Nest Hub (1024 X 600) - height: 70em */
+  /* Surface Pro 7 (912 X 1368) - height: 86em */
+  /* Galaxy Fold (280 X 653) - height: ???em */
   /* Samsung Galaxy S8+ (360 X 740) - height: 72em */
-  height: 82.5em;
+  height: 82em;
 }
 
 #dark {
