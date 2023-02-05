@@ -3,12 +3,14 @@ import DayNightToggle from "./DayNightToggle";
 import CopyToClipboard from "./CopyToClipboard";
 import { ThemeContext } from "../App";
 import "../App.css";
+import ShareLinks from "./ShareLinks";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <div className="flex flex-col items-center">
       <header className="cursor-pointer flex flex-row xsm:w-10/12 sm:w-10/12 md:w-10/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12 3xl:w-4/12 4xl:w-3/12 justify-between items-center bg-opacity-50 mt-5">
+        <ShareLinks />
         <div className="bg-slate-200 rounded-md bg-opacity-25">
           <CopyToClipboard
             url={"https://localhost:3000"}
