@@ -27,7 +27,7 @@ it will show links to my social media with the right thumbnail. Here is the miro
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230121update.JPG)
 
 - 2023-01-29, Added a Day and night Toggle on my site.
-  !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230129update.JPG)
+  !["Recent Change in 2023-01-29"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230129update.JPG)
 
 - 2023-02-04, Properly setup the width and height. Also, added a copy button for the actual site link (Might have to change that to a share to social button). Also added a sun and moon on the daynighttoggle.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230204update.JPG)
