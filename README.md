@@ -23,6 +23,7 @@ it will show links to my social media with the right thumbnail. Here is the miro
 - 2023-01-18, Made a lot of changes on the arrangement of social links and added a posts section that contains hover effects and copy to url function. Added a few more functioning features such as show social name on hover on each site and copy url feature on the posts section. I will try and finish the form contact submission to my email tomorrow and also add a day and night scrolling!
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230118update.JPG)
   - The copy feature is using the `navigator.clipboard.writeText` line of code.
+  - Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
 
 - 2023-01-21, Finalize the messaging in my small site using formsubmit backend API. For future projects on using nodemailer. I need to setup a separate backend file to establish connection to my frontend. Here is the current look of my site. I will finalize this project by adding a day and night toggle to view my small link site.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230121update.JPG)
