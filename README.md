@@ -25,7 +25,7 @@ it will show links to my social media with the right thumbnail. Here is the miro
   - The copy feature is using the `navigator.clipboard.writeText` line of code.
   - Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
 
-- 2023-01-21, Finalize the messaging in my small site using formsubmit backend API. For future projects on using nodemailer. I need to setup a separate backend file to establish connection to my frontend. Here is the current look of my site. I will finalize this project by adding a day and night toggle to view my small link site.
+- 2023-01-21, Finalize the messaging in my small site using formsubmit backend API! For future projects on using nodemailer! I need to setup a separate backend file to establish connection to my frontend. Here is the current look of my site. I will finalize this project by adding a day and night toggle to view my small link site.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230121update.JPG)
   - Here is the [FormSubmit API](https://formsubmit.co/)
 
