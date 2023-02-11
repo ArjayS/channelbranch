@@ -6,6 +6,8 @@ A front-end app that is showcases my professional social links!
 
 it will show links to my social media with the right thumbnail. Here is the miro link: [channelbranch](https://miro.com/app/board/uXjVP0ZJa68=/?share_link_id=244048380532)
 
+- Did a brief breakdown of the styling of my app.
+
 ### Updates
 
 - 2023-01-09, Able to render the data and images, and button links are working on click.
