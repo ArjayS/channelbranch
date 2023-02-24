@@ -10,7 +10,7 @@ This app will show links to my social media with the right thumbnail. Here is th
 
 ### Updates
 
-- 2023-01-09, Able to render the data and images, and button links are working on click.
+- 2023-01-09, I am able to render the data and images, and button links are working on click.
   !["Rough display of my social link site"](https://github.com/ArjayS/channelbranch/blob/main/public/images/20230109update.JPG)
 
 - 2023-01-11, Styled most of the main section of my site, will have to update more later.
