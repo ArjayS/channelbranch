@@ -1,6 +1,6 @@
 # channelbranch
 
-It is a front-end app that showcases my professional social links!
+It is a front-end app that showcases my professional social links! Hope you guys enjoy it!
 
 ## Concept
 
