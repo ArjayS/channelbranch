@@ -4,7 +4,7 @@ It is a front-end app that showcases my professional social links! Hope you guys
 
 ## Concept
 
-This app / site will show links to my social media with the right thumbnail. Here is the miro link: [channelbranch](https://miro.com/app/board/uXjVP0ZJa68=/?share_link_id=244048380532)
+This app / site will show links to my social media with the right thumbnail! Here is the miro link: [channelbranch](https://miro.com/app/board/uXjVP0ZJa68=/?share_link_id=244048380532)
 
 - I did a brief breakdown of the styling of my app using Miro! I only did a mockup and added styling and designed the necessary parts of the app that I want to have!
 
